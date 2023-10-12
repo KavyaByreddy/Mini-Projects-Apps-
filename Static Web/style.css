@@ -1,0 +1,44 @@
+.body{
+    margin: auto;
+    width: 70%;
+    clear: both;
+}
+.header img{
+    width: 30%;
+    height: auto;
+    margin: 2%;
+}
+.header nav{
+    background-color: black;
+    height: 40px;
+    border-radius: 5px;
+    -webkit-border-radius:5px;
+}
+.header nav ul{
+    list-style: none;
+    margin: auto;
+}
+.header nav ul li{
+    float: left;
+    display: inline;
+}
+.header nav a:link,.header nav a:visited{
+    color: beige;
+    display: inline-block;
+    padding: 20px;
+    height: 10px;
+}
+.header nav a:hover,.header nav a:active,.header nav .active a:link, .header nav .active a:visited{
+    background-color: blueviolet;
+    text-shadow: none;
+}
+.header nav ul li a{
+    border-radius: 5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+.maincontent{
+    border-radius: 5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
